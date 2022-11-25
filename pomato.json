@@ -1,0 +1,18 @@
+{
+  "version": "2",
+  "templates": [
+    {
+      "type": 2,
+      "title": "Netdisco",
+      "description": "Netdisco ağ keşif sistemi",
+      "note": "Netdisco postgreaql veritabanını kullanır",
+      "categories": ["ağ İzleme"],
+      "platform": "linux",
+      "logo": "https://raw.githubusercontent.com/netdisco/upstream-sources/master/flickr/464520552_4f786b6889_m.jpg",
+      "repository": {
+        "url": "https://github.com/muratbulat/pomato",
+        "stackfile": "stacks/netdisco/docker-compose.yml"
+      }
+    }
+  ]
+}
